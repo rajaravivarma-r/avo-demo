@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Bootstrap command
+`mkdir avo-demo`
+`rails new --database=sqlite3 --skip-action-mailer --skip-action-mailbox --skip-action-text --skip-active-job --skip-active-storage --skip-action-cable --skip-sprockets --skip-spring --skip-jbuilder --skip-test --skip-system-test --force .`
 
-Things you may want to cover:
+## Requirements:
 
+### Both mentioned in .tool-versions (etup using asdf)
 * Ruby version
+- 3.0.0
 
-* System dependencies
+* Nodejs
+- 16.5.0
 
 * Configuration
 
-* Database creation
+* Database
+- Sqlite
 
 * Database initialization
+- bin/rails db:create db:migrate
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Start server
+- bin/rails s
