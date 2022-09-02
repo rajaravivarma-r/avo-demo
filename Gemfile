@@ -19,7 +19,7 @@ gem 'turbolinks', '~> 5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
-gem 'avo', '~> 2.14'
+gem 'avo', '= 2.14.3.pre.6.nosprockets'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
