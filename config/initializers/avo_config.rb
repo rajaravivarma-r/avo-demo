@@ -5,6 +5,7 @@ Avo.configure do |config|
   ## == Set the context ==
   config.set_context do
     # User.connection.schema_search_path = 'public'
+    Product.connection.schema_search_path = 'google'
   end
 
   ## == Authentication ==
