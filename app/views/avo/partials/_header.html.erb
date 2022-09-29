@@ -1,0 +1,17 @@
+<%= link_to Avo.configuration.app_name, '/', class: 'text-primary-500 font-semibold', target: :_blank %>
+<div class="p-10">
+  <div class="dropdown inline-block relative">
+    <span class="uppercase text-green-600 font-semibold cursor-pointer"><%= 'Staging' %></span>
+    <span class="bg-green-700 cursor-pointer text-white whitespace-nowrap rounded-md uppercase text-xs font-bold px-2 py-1 text-center truncate"><%= 'Staging' %></span>
+    <a href="javascript:void(0);" class="down-cursor flex inline-flex items-center cursor-pointer font-semibold text-gray-700">
+      <%= svg 'chevron-down', class: "h-4" %>
+    </a>
+    <ul class="absolute hidden dropdown-menu z-20 float-right py-2 w-full text-base text-gray-800 list-none text-left border border-gray-300 bg-white rounded shadow">
+      <li>
+        <%= button_to 'Google', 'https://www.google.com', method: :put, data: { turbo: false }, class: "block w-full py-1 px-6 font-normal text-gray-900 bg-transparent border-0 hover:text-gray-900 hover:bg-gray-100 text-left" %>
+      </li>
+    </ul>
+  </div>
+  <span class="uppercase text-green-600 font-semibold"><%= 'cyberion' %></span>
+  <span class="bg-green-700 text-white whitespace-nowrap rounded-md uppercase text-xs font-bold px-2 py-1 text-center truncate"><%= 'Staging' %></span>
+</div>
