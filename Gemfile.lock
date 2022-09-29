@@ -65,7 +65,7 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
-    avo (2.14.0)
+    avo (2.16.0)
       active_link_to
       addressable
       breadcrumbs_on_rails
@@ -125,7 +125,7 @@ GEM
     mail (2.7.1)
       mini_mime (>= 0.1.1)
     marcel (1.0.2)
-    meta-tags (2.17.0)
+    meta-tags (2.18.0)
       actionpack (>= 3.2.0, < 7.1)
     method_source (1.0.0)
     mime-types (3.4.1)
@@ -200,7 +200,7 @@ GEM
     stimulus-rails (1.1.0)
       railties (>= 6.0.0)
     thor (1.2.1)
-    turbo-rails (1.1.1)
+    turbo-rails (1.3.0)
       actionpack (>= 6.0.0)
       activejob (>= 6.0.0)
       railties (>= 6.0.0)
@@ -231,7 +231,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
-  avo (= 2.14)
+  avo (= 2.16)
   bootsnap (>= 1.4.4)
   byebug
   listen (~> 3.3)
@@ -243,7 +243,7 @@ DEPENDENCIES
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
-  webpacker (~> 5.0)
+  webpacker (~> 5.4.0)
 
 RUBY VERSION
    ruby 3.0.0p0
