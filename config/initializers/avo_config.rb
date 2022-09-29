@@ -46,9 +46,17 @@ Avo.configure do |config|
   # Where should the user be redirected when he hits the `/avo` url
   config.home_path = "/products"
 
+  config.disabled_features = [:global_search]
+
   ## == Breadcrumbs ==
   # config.display_breadcrumbs = true
   # config.set_initial_breadcrumbs do
   #   add_breadcrumb "Home", '/avo'
   # end
+  #
+  config.main_menu = lambda do
+    section 'Items', collapsable: true do
+      resource :product
+    end
+  end
 end
